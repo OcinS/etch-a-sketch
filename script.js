@@ -49,19 +49,24 @@ CREATEGRID16.addEventListener(`click`, () => {
         LABEL2.className = `label`;
         LABEL2.innerText = `Choose Color:`;
 
-        const BLACKBUTTON = document.createElement(`button`);
-        BLACKBUTTON.className = `black btn`;
-        BLACKBUTTON.innerText = `Black`;
+        const CONTAINERFLEXBUTTONS1 = document.createElement(`div`);
+        CONTAINERFLEXBUTTONS1.className = `container-flex-buttons`;
 
-        const GRAYBUTTON = document.createElement(`button`);
-        GRAYBUTTON.className = `gray btn`;
-        GRAYBUTTON.innerText = `Gray`;
+            const BLACKBUTTON = document.createElement(`button`);
+            BLACKBUTTON.className = `black btn`;
+            BLACKBUTTON.innerText = `Black`;
 
-        const RAINBOWBUTTON = document.createElement(`button`);
-        RAINBOWBUTTON.className = `rainbow btn`;
-        RAINBOWBUTTON.innerText = `Rainbow`;
+            const GRAYBUTTON = document.createElement(`button`);
+            GRAYBUTTON.className = `gray btn`;
+            GRAYBUTTON.innerText = `Gray`;
 
-        CONTAINERFLEX2.append(LABEL2,BLACKBUTTON,GRAYBUTTON,RAINBOWBUTTON);
+            const RAINBOWBUTTON = document.createElement(`button`);
+            RAINBOWBUTTON.className = `rainbow btn`;
+            RAINBOWBUTTON.innerText = `Rainbow`;
+
+        CONTAINERFLEXBUTTONS1.append(BLACKBUTTON,GRAYBUTTON,RAINBOWBUTTON);
+
+    CONTAINERFLEX2.append(LABEL2,CONTAINERFLEXBUTTONS1);
 
 
     // Create the Option Buttons and Append to this Flex Container
@@ -72,19 +77,24 @@ CREATEGRID16.addEventListener(`click`, () => {
         LABEL3.className = `label second`;
         LABEL3.innerText = `Options:`;
 
-        const ERASEBUTTON = document.createElement(`button`);
-        ERASEBUTTON.className = `erase btn`;
-        ERASEBUTTON.innerText = `Erase`;
+        const CONTAINERFLEXBUTTONS2 = document.createElement(`div`);
+        CONTAINERFLEXBUTTONS2.className = `container-flex-buttons`;
 
-        const CLEARBUTTON = document.createElement(`button`);
-        CLEARBUTTON.className = `clear btn`;
-        CLEARBUTTON.innerText = `Clear`;
+            const ERASEBUTTON = document.createElement(`button`);
+            ERASEBUTTON.className = `erase btn`;
+            ERASEBUTTON.innerText = `Erase`;
 
-        const ENDGAMEBUTTON = document.createElement(`button`);
-        ENDGAMEBUTTON.className = `end-game btn`;
-        ENDGAMEBUTTON.innerText = `End Game`;
+            const CLEARBUTTON = document.createElement(`button`);
+            CLEARBUTTON.className = `clear btn`;
+            CLEARBUTTON.innerText = `Clear`;
 
-        CONTAINERFLEX3.append(LABEL3,ERASEBUTTON,CLEARBUTTON,ENDGAMEBUTTON);
+            const ENDGAMEBUTTON = document.createElement(`button`);
+            ENDGAMEBUTTON.className = `end-game btn`;
+            ENDGAMEBUTTON.innerText = `End Game`;
+
+        CONTAINERFLEXBUTTONS2.append(ERASEBUTTON,CLEARBUTTON,ENDGAMEBUTTON);
+
+    CONTAINERFLEX3.append(LABEL3,CONTAINERFLEXBUTTONS2);
 
     // Append the 3 Flex Containers to the Body
     BODY.insertBefore(CONTAINERFLEX1, BODY.children[2]);
@@ -198,19 +208,24 @@ CREATEGRID24.addEventListener(`click`, () => {
         LABEL2.className = `label`;
         LABEL2.innerText = `Choose Color:`;
 
-        const BLACKBUTTON = document.createElement(`button`);
-        BLACKBUTTON.className = `black btn`;
-        BLACKBUTTON.innerText = `Black`;
+        const CONTAINERFLEXBUTTONS1 = document.createElement(`div`);
+        CONTAINERFLEXBUTTONS1.className = `container-flex-buttons`;
 
-        const GRAYBUTTON = document.createElement(`button`);
-        GRAYBUTTON.className = `gray btn`;
-        GRAYBUTTON.innerText = `Gray`;
+            const BLACKBUTTON = document.createElement(`button`);
+            BLACKBUTTON.className = `black btn`;
+            BLACKBUTTON.innerText = `Black`;
 
-        const RAINBOWBUTTON = document.createElement(`button`);
-        RAINBOWBUTTON.className = `rainbow btn`;
-        RAINBOWBUTTON.innerText = `Rainbow`;
+            const GRAYBUTTON = document.createElement(`button`);
+            GRAYBUTTON.className = `gray btn`;
+            GRAYBUTTON.innerText = `Gray`;
 
-        CONTAINERFLEX2.append(LABEL2,BLACKBUTTON,GRAYBUTTON,RAINBOWBUTTON);
+            const RAINBOWBUTTON = document.createElement(`button`);
+            RAINBOWBUTTON.className = `rainbow btn`;
+            RAINBOWBUTTON.innerText = `Rainbow`;
+
+        CONTAINERFLEXBUTTONS1.append(BLACKBUTTON,GRAYBUTTON,RAINBOWBUTTON);
+
+    CONTAINERFLEX2.append(LABEL2,CONTAINERFLEXBUTTONS1);
 
 
     // Create the Option Buttons and Append to this Flex Container
@@ -221,19 +236,24 @@ CREATEGRID24.addEventListener(`click`, () => {
         LABEL3.className = `label second`;
         LABEL3.innerText = `Options:`;
 
-        const ERASEBUTTON = document.createElement(`button`);
-        ERASEBUTTON.className = `erase btn`;
-        ERASEBUTTON.innerText = `Erase`;
+        const CONTAINERFLEXBUTTONS2 = document.createElement(`div`);
+        CONTAINERFLEXBUTTONS2.className = `container-flex-buttons`;
 
-        const CLEARBUTTON = document.createElement(`button`);
-        CLEARBUTTON.className = `clear btn`;
-        CLEARBUTTON.innerText = `Clear`;
+            const ERASEBUTTON = document.createElement(`button`);
+            ERASEBUTTON.className = `erase btn`;
+            ERASEBUTTON.innerText = `Erase`;
 
-        const ENDGAMEBUTTON = document.createElement(`button`);
-        ENDGAMEBUTTON.className = `end-game btn`;
-        ENDGAMEBUTTON.innerText = `End Game`;
+            const CLEARBUTTON = document.createElement(`button`);
+            CLEARBUTTON.className = `clear btn`;
+            CLEARBUTTON.innerText = `Clear`;
 
-        CONTAINERFLEX3.append(LABEL3,ERASEBUTTON,CLEARBUTTON,ENDGAMEBUTTON);
+            const ENDGAMEBUTTON = document.createElement(`button`);
+            ENDGAMEBUTTON.className = `end-game btn`;
+            ENDGAMEBUTTON.innerText = `End Game`;
+
+        CONTAINERFLEXBUTTONS2.append(ERASEBUTTON,CLEARBUTTON,ENDGAMEBUTTON);
+
+    CONTAINERFLEX3.append(LABEL3,CONTAINERFLEXBUTTONS2);
 
     // Append the 3 Flex Containers to the Body
     BODY.insertBefore(CONTAINERFLEX1, BODY.children[2]);

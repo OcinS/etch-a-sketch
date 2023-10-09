@@ -103,8 +103,8 @@ body {
     grid-template-columns: repeat(24, 1fr);
     border: 2px solid var(--accentColor);
     background-color: var(--whiteColor);
-    width: 600px;
-    height: 600px;
+    width: clamp(18.75rem, 18.75vw + 15rem, 37.5rem);
+    height: clamp(18.75rem, 18.75vw + 15rem, 37.5rem);
     margin: 0px auto;
 }
 
@@ -130,6 +130,14 @@ body {
 .btn:hover {
     opacity: 0.8;
     transform: scale(1.1);
+}
+
+.container-flex-buttons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* Labels and Color Display Styles */
